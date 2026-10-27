@@ -3,7 +3,7 @@
 @font-face{font-family:"Literata";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/literata-latin-400-italic.woff2") format("woff2")}
 @font-face{font-family:"Literata";font-style:italic;font-weight:600;font-display:swap;src:url("fonts/literata-latin-600-italic.woff2") format("woff2")}
 :root{
-  --paper:#f6f7f4; --ink:#1c201d; --muted:#5b645d; --rule:#d8dcd4; --accent:#1f5a3d;
+  --paper:#ffffff; --ink:#1a1a1a; --muted:#595959; --rule:#e0e0e0; --accent:#1f5a3d;
   --serif:"Literata",Georgia,"Times New Roman",serif;
   --sans:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
 }

@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+<title>Research – Naja Jebin M</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="style.css">
+</head><body><div class="wrap">
+<header><a class="name" href="index.html">Naja Jebin M</a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="academics.html">Academics and CV</a></nav></header>
+<main>
+<div class="row"><div class="label"></div><div class="intro"><h1>Research</h1>
+<p>Three research internships, newest first. Each entry says what the question was, what I did, and what stage the work is at.</p></div></div>
+
+<section class="row" id="jncasr"><div class="label">3 June – 27 July 2026</div><div>
+<h2>Neuronal and cellular basis of the egg-laying rhythm in <i>Drosophila melanogaster</i></h2>
+<p class="meta">Chronobiology and Behavioural Neurogenetics Laboratory, Neuroscience Unit, JNCASR, Bengaluru.<br>Supervisor: Prof. Sheeba Vasu.</p>
+<p class="status"><b>Status:</b> preliminary results, unpublished.</p>
+<p>Fruit flies lay eggs on a daily schedule set by the circadian clock. The project asked which groups of clock neurons control that timing.</p>
+<p>I used GAL4-UAS genetics to speed up the clock in chosen neurons: all neurons, Cry-positive neurons and AstC-positive neurons. I ran egg-laying assays every two hours for 24 hours, over three days, across nine population cages, including night collections under red light. Early results point to a small set of candidate neuron groups for follow-up.</p>
+<p>I also helped validate the MB122B split-GAL4 driver. I dissected adult brains and stained them for PER and GFP, which confirmed expression in three Cry-positive LNds and the fifth sLNv, and locomotor recordings showed an advanced evening activity peak. I practised corpora allata dissection and PER staining to test for a local clock there; I could not locate the tissue in my attempts, and worked through why. I presented the results to the lab.</p>
+<p class="sans">Methods: fly genetics, oviposition assays, brain dissection, immunohistochemistry, fluorescence imaging, locomotor activity analysis.</p>
+<!-- Photo: save as images/jncasr.jpg (3:2), then uncomment.
+<figure><img src="images/jncasr.jpg" alt="Naja with Prof. Sheeba Vasu in the laboratory"><figcaption>With Prof. Sheeba Vasu, JNCASR, July 2026.</figcaption></figure> -->
+</div></section>
+
+<section class="row" id="cbr"><div class="label">Dec 2025 – Jan 2026</div><div>
+<h2>EEG motor imagery classification with machine learning and deep learning</h2>
+<p class="meta">Centre for Brain Research, Indian Institute of Science, Bengaluru.<br>Supervisor: Dr. Neelam Sinha.</p>
+<p class="status"><b>Status:</b> binary task complete; five-class models in training.</p>
+<p>The aim was to classify brain states from EEG, first on a binary mental arithmetic task and then on a five-class motor imagery dataset from PhysioNet.</p>
+<p>Signals were cleaned with a 50 Hz notch filter, an 8–30 Hz bandpass filter and ICA artifact removal, then z-scored, cut into 4-second epochs and balanced with SMOTE. On the binary task I compared SVM, Random Forest, AdaBoost and CNN models. The best SVM reached about 96% accuracy and a simple CNN about 98.75%. The dataset was small, so I read these as a comparison of methods rather than a benchmark, and comparing a simple and a complex CNN showed how strongly dataset size limits what a model can learn.</p>
+<p>For the five-class problem I studied hybrid 1D CNN-GRU and Bi-GRU architectures on six sensorimotor channel pairs. Training is still in progress.</p>
+<p class="sans">Methods: signal preprocessing, scikit-learn classifiers, CNN and GRU models, cross-validation.</p>
+<!-- Photo: images/cbr.jpg
+<figure><img src="images/cbr.jpg" alt="Naja with Dr. Neelam Sinha"><figcaption>With Dr. Neelam Sinha, Centre for Brain Research, January 2026.</figcaption></figure> -->
+</div></section>
+
+<section class="row" id="delhi"><div class="label">12 June – 22 July 2025</div><div>
+<h2>Management of the pulse beetle (<i>Callosobruchus chinensis</i>) using botanicals</h2>
+<p class="meta">Department of Zoology, Hindu College, University of Delhi (DBT Star College Scheme).<br>Supervisor: Dr. Anupam V. Sharma.</p>
+<p class="status"><b>Status:</b> manuscript in preparation (group project).</p>
+<p>The pulse beetle is a major pest of stored grain. As part of a group of interns, I tested clove oil and neem oil as eco-friendly alternatives to chemical fumigants.</p>
+<p>We set up control and treated groups with 3 to 10 replicates and recorded adult survival, egg laying, hatching and adult emergence over several weeks. Clove oil vapour caused high adult mortality and strongly reduced egg laying: under 15% of seeds carried eggs, against 46–97% in controls. Neem oil had a milder effect. I also compared host seed preference between moong and red lobia, and ran field observations showing that ants preferentially removed infested seeds and dead beetles, which suggests a role in natural pest clean-up.</p>
+<p class="sans">Methods: insect culture, stereo-microscopy, vapour bioassays, replicated experimental design, field behavioural assays.</p>
+<!-- Photo: images/delhi.jpg
+<figure><img src="images/delhi.jpg" alt="Naja with Dr. Anupam V. Sharma"><figcaption>With Dr. Anupam V. Sharma, Hindu College, July 2025.</figcaption></figure> -->
+</div></section>
+
+<section class="row" id="other"><div class="label">Other projects</div><div>
+<h2>Quantum Interpretations Project</h2>
+<p>A student study of competing interpretations of quantum mechanics, comparing the Copenhagen interpretation with pilot-wave theory and how each explains measurement. Presented at Anvesha 24, a student expo.</p>
+</div></section>
+</main>
+<footer>Last updated October 2026.</footer>
+</div></body></html>
